@@ -6,7 +6,8 @@ apartment manager with swing and JPA
 *in alpha*
 
 **prerequisites**
--Postgresql database 'jdncdemodb'
+
+  - Postgresql database 'jdncdemodb'
 
 ```
 create table users ( id bigint PRIMARY KEY, first_name varchar(20) NOT NULL, last_name varchar(20) NOT NULL, user_name varchar(20) NOT NULL UNIQUE );
@@ -16,3 +17,4 @@ create sequence property_id_seq;
 create sequence users_id_seq;
 ```
 
+![](house.JPG)
